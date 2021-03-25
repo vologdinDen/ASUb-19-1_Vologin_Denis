@@ -10,57 +10,19 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Libs/gluegen-rt-natives-windows-amd64.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../Libs/gluegen-rt-natives-windows-amd64.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../Libs/gluegen-rt-natives-windows-i586.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../Libs/gluegen-rt.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../Libs/jogl-all-natives-windows-amd64.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../Libs/jogl-all-natives-windows-i586.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../Libs/jogl-all.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/src" />
+        </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Libs/gluegen-rt-natives-windows-i586.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Libs/gluegen-rt.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Libs/jogl-all-natives-windows-amd64.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Libs/jogl-all-natives-windows-i586.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Libs/jogl-all.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" exported="" name="gluegen-java-src" level="project" />
+    <orderEntry type="library" exported="" name="gluegen-java" level="project" />
   </component>
 </module>

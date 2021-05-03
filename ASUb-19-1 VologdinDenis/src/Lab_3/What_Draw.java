@@ -13,7 +13,6 @@ import java.awt.*;
 
 import static Lab_3.Draw_3.xView;
 import static Lab_3.Draw_3.yView;
-//import static Lab_3.Draw_3.zView;
 
 public class What_Draw {
     private static int mapSize = 128;
@@ -49,10 +48,6 @@ public class What_Draw {
         gl.glEnable(GL2.GL_DEPTH_TEST);
         gl.glClear(GL2.GL_COLOR_BUFFER_BIT | GL2.GL_DEPTH_BUFFER_BIT);
         gl.glTexEnvf(gl.GL_TEXTURE_ENV, gl.GL_TEXTURE_ENV_MODE, gl.GL_MODULATE);
-
-
-        //int zV = (int) ((Draw_3.zView-(Draw_3.zView%105))/105);
-        //int xV = (int) ((Draw_3.xView-(Draw_3.xView%105))/105);
 
 
         //gl.glRotated(Draw_3.xView, 0, 1, 0);

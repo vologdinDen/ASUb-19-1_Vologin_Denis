@@ -53,13 +53,6 @@ public class Draw_3 extends Frame{
 
                 gl.glEnable(GL2.GL_COLOR_MATERIAL);
                 gl.glEnable(GL2.GL_NORMALIZE);
-
-                /*gl.glEnable(GL2.GL_LIGHTING);
-                gl.glEnable(GL2.GL_LIGHT0);
-                gl.glLightiv(GL2.GL_LIGHT0, GL2.GL_POSITION, new int[] { -1, 1, -1, 0 },0);*/
-                //gl.glEnable(GL2.GL_FOG);
-
-                //gl.glFogf(GL2.GL_FOG_DENSITY, .05f);
                 gl.glClearColor(.9f, .9f, 1, 0);
                 gl.glFogfv(GL2.GL_FOG_COLOR, new float[] { .9f, .9f, 1, 0 }, 0);
 
